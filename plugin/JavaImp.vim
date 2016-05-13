@@ -690,7 +690,7 @@ fun! <SID>JavaImpInsert(verboseMode)
             let hasPackage = <SID>JavaImpGotoPackage()
             if (hasPackage == 1)
                 let pkgLoc = line('.')
-                let pkgPat = '^\s*package\s\+\(\%(\w\+\.\)*\w\+\)\s*;.*$'
+                let pkgPat = '^\s*package\s\+\(\%(\w\+\.\)*\w\+\)\s*;\?.*$'
                 let pkg = substitute(getline(pkgLoc), pkgPat, '\1', '')
 
                 " Check to see if the class is in this package, we won't
@@ -730,14 +730,14 @@ endfun
 " If found, it'll return the fully qualify classname.  Otherwise, it'll return
 " an empty string.
 fun! <SID>JavaImpCurrFullName(className)
-    let pattern = '^\s*import\s\s*.*[.]' . a:className . '\s*;'
+    let pattern = '^\s*import\s\s*.*[.]' . a:className . '\s*;\?'
     " Split and jump
     split
     " First search for the className in an import statement
     normal G$
     if (search(pattern, "w") != 0)
         " We are on that import line now, try fetching the full className:
-        let imp = substitute(getline("."), '^\s*import\s\s*\(.*[.]' . a:className . '\)\s*;', '\1', "")
+        let imp = substitute(getline("."), '^\s*import\s\s*\(.*[.]' . a:className . '\)\s*;\?', '\1', "")
         " close the window
         close
         return imp
@@ -1345,7 +1345,7 @@ fun! <SID>JavaImpGotoPackage()
     " First search for the className in an import statement
     normal G$
     let flags = "w"
-    let pattern = '^\s*package\s\s*.*;'
+    let pattern = '^\s*package\s\s*.*;\?'
     if (search(pattern, flags) == 0)
         return 0
     else
@@ -1359,7 +1359,7 @@ fun! <SID>JavaImpGotoLast()
     " First search for the className in an import statement
     normal G$
     let flags = "w"
-    let pattern = '^\s*import\s\s*.*;'
+    let pattern = '^\s*import\s\s*.*;\?'
     let importFound = 0
     while search(pattern, flags) > 0
         let importFound = 1
@@ -1372,7 +1372,7 @@ endfun
 " found, returns 0 if not.
 fun! <SID>JavaImpGotoFirst()
     normal G$
-    let pattern = '^\s*import\s\s*.*;'
+    let pattern = '^\s*import\s\s*.*;\?'
     return (search(pattern, "w") > 0)
 endfun
 
@@ -1468,8 +1468,8 @@ endfunc
 " If not given an import statement, this returns
 " empty string
 fun! <SID>JavaImpGetClassname(importStr,depth) 
-    let pkgMatch = '\s*import\s*.*\.[^.]*;$'
-    let pkgGrep = '\s*import\s*.*\.\([^.]*\);$'
+    let pkgMatch = '\s*import\s*.*\.[^.]*;\?$'
+    let pkgGrep = '\s*import\s*.*\.\([^.]*\);\?$'
     
     if (match(a:importStr, pkgMatch) == -1)
         let classname = ""
@@ -1490,7 +1490,7 @@ endfunc
 fun! <SID>JavaImpGetSubPkg(importStr,depth) 
     " set up the match/grep command 
     let subpkgStr = '[^.]\{-}\.'
-    let pkgMatch = '\s*import\s*.*\.[^.]*;$'
+    let pkgMatch = '\s*import\s*.*\.[^.]*;\?$'
     let pkgGrep = '\s*import\s*\('
     let curDepth = a:depth
     " we tack on a:depth extra subpackage to the end of the match
@@ -1499,7 +1499,7 @@ fun! <SID>JavaImpGetSubPkg(importStr,depth)
       let pkgGrep = pkgGrep.subpkgStr
       let curDepth = curDepth - 1
     endwhile
-    let pkgGrep = pkgGrep.'\)'.'.*;$'
+    let pkgGrep = pkgGrep.'\)'.'.*;\?$'
     " echo pkgGrep
     
     if (match(a:importStr, pkgMatch) == -1)
