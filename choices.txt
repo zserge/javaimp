@@ -1,0 +1,481 @@
+RecyclerView android.support.v7.widget.RecyclerView 
+NoSuchPropertyException android.util.NoSuchPropertyException kotlin.reflect.NoSuchPropertyException 
+Store org.bouncycastle.util.Store 
+SearchView android.widget.SearchView 
+NumberPicker android.widget.NumberPicker 
+RadioGroup android.widget.RadioGroup 
+Component net.java.games.input.Component 
+Inject javax.inject.Inject 
+NoSuchAlgorithmException java.security.NoSuchAlgorithmException 
+MessageDigest java.security.MessageDigest 
+FileNotFoundException java.io.FileNotFoundException 
+BufferedWriter java.io.BufferedWriter 
+FileWriter java.io.FileWriter 
+URLConnection java.net.URLConnection 
+ClickableSpan android.text.style.ClickableSpan 
+URLSpan android.text.style.URLSpan 
+PatternMatcher android.os.PatternMatcher 
+LinkMovementMethod android.text.method.LinkMovementMethod 
+LargeTest android.test.suitebuilder.annotation.LargeTest 
+Rule org.junit.Rule groovyjarjarantlr.preprocessor.Rule org.antlr.v4.tool.Rule org.apache.commons.codec.language.bm.Rule org.jetbrains.k2js.translate.context.generator.Rule org.jetbrains.kotlin.js.translate.context.generator.Rule org.parboiled.Rule 
+TypeSafeMatcher org.hamcrest.TypeSafeMatcher org.junit.internal.matchers.TypeSafeMatcher 
+Description org.hamcrest.Description org.apache.tools.ant.types.Description org.junit.runner.Description 
+Mockito org.mockito.Mockito 
+Ignore org.junit.Ignore groovy.mock.interceptor.Ignore 
+PKCS8EncodedKeySpec java.security.spec.PKCS8EncodedKeySpec 
+KeySpec java.security.spec.KeySpec 
+Signature java.security.Signature android.content.pm.Signature org.bouncycastle.asn1.ocsp.Signature org.bouncycastle.jce.provider.asymmetric.ec.Signature org.mockito.cglib.core.Signature 
+Before org.junit.Before 
+Mock org.mockito.Mock 
+RunWith org.junit.runner.RunWith 
+MockitoJUnitRunner org.mockito.runners.MockitoJUnitRunner 
+SoftReference java.lang.ref.SoftReference com.intellij.reference.SoftReference 
+ParseException android.net.ParseException com.ximpleware.ParseException groovyjarjarcommonscli.ParseException java.text.ParseException org.apache.http.ParseException org.apache.xerces.impl.xpath.regex.ParseException org.luaj.vm2.parser.ParseException proguard.ParseException 
+MailTo android.net.MailTo 
+Manifest android.Manifest java.util.jar.Manifest org.apache.tools.ant.taskdefs.Manifest 
+Objects java.util.Objects com.google.common.base.Objects net.orfjackal.retrolambda.google.common.base.Objects org.fest.util.Objects 
+MathContext java.math.MathContext com.ibm.icu.math.MathContext 
+CoreMatchers org.hamcrest.CoreMatchers 
+BigDecimal java.math.BigDecimal com.ibm.icu.math.BigDecimal 
+UiThreadTest android.test.UiThreadTest 
+ContentProvider android.content.ContentProvider 
+Preference android.preference.Preference 
+PreferenceActivity android.preference.PreferenceActivity 
+Filterable android.widget.Filterable org.junit.runner.manipulation.Filterable 
+Filter android.widget.Filter com.badlogic.gdx.physics.box2d.Filter java.util.logging.Filter org.apache.tools.ant.taskdefs.Filter org.bouncycastle.i18n.filter.Filter org.jdom.filter.Filter org.junit.runner.manipulation.Filter org.lwjgl.opencl.api.Filter 
+PendingIntent android.app.PendingIntent 
+SerializedName com.google.gson.annotations.SerializedName 
+EOFException java.io.EOFException com.ximpleware.EOFException 
+BitSet java.util.BitSet groovyjarjarantlr.collections.impl.BitSet org.antlr.runtime.BitSet 
+JsonArray com.google.gson.JsonArray 
+JsonObject com.google.gson.JsonObject 
+GsonBuilder com.google.gson.GsonBuilder 
+JsonDeserializationContext com.google.gson.JsonDeserializationContext 
+JsonElement com.google.gson.JsonElement 
+JsonDeserializer com.google.gson.JsonDeserializer 
+ViewPropertyAnimator android.view.ViewPropertyAnimator 
+TypeToken com.google.gson.reflect.TypeToken com.google.common.reflect.TypeToken net.orfjackal.retrolambda.google.common.reflect.TypeToken 
+Gson com.google.gson.Gson 
+RenderableAdapter trikita.anvil.RenderableAdapter 
+Locale java.util.Locale 
+BreakIterator java.text.BreakIterator com.ibm.icu.text.BreakIterator 
+TimeInterpolator android.animation.TimeInterpolator 
+XWalkPreferences org.xwalk.core.XWalkPreferences 
+NsdServiceInfo android.net.nsd.NsdServiceInfo 
+NsdManager android.net.nsd.NsdManager 
+ColorStateList android.content.res.ColorStateList 
+StateSet android.util.StateSet 
+GradientDrawable android.graphics.drawable.GradientDrawable 
+StateListDrawable android.graphics.drawable.StateListDrawable 
+TextPaint android.text.TextPaint 
+Layout android.text.Layout com.badlogic.gdx.scenes.scene2d.utils.Layout 
+StaticLayout android.text.StaticLayout 
+Test org.junit.Test junit.framework.Test org.bouncycastle.util.test.Test 
+State trikita.anvil.State com.android.sdklib.devices.State kotlin.support.State org.jetbrains.jet.lang.resolve.name.State org.jetbrains.kotlin.name.State 
+Anvil trikita.anvil.Anvil 
+Property android.util.Property com.intellij.util.xmlb.annotations.Property org.apache.tools.ant.taskdefs.Property 
+SimpleAttrNode trikita.anvil.SimpleAttrNode 
+OkHttpClient com.squareup.okhttp.OkHttpClient 
+RenderableView trikita.anvil.RenderableView 
+AutoCompleteTextView android.widget.AutoCompleteTextView 
+CopyOnWriteArraySet java.util.concurrent.CopyOnWriteArraySet 
+ConcurrentHashMap java.util.concurrent.ConcurrentHashMap 
+Ringtone android.media.Ringtone 
+RingtoneManager android.media.RingtoneManager 
+Vibrator android.os.Vibrator 
+Equalizer android.media.audiofx.Equalizer 
+Timer java.util.Timer com.badlogic.gdx.utils.Timer org.lwjgl.util.Timer org.mockito.internal.util.Timer 
+TimerTask java.util.TimerTask 
+PrintStream java.io.PrintStream 
+ViewTreeObserver android.view.ViewTreeObserver 
+SimpleExpandableListAdapter android.widget.SimpleExpandableListAdapter 
+AssetFileDescriptor android.content.res.AssetFileDescriptor 
+BufferedInputStream java.io.BufferedInputStream 
+Queue java.util.Queue com.intellij.util.containers.Queue edu.emory.mathcs.backport.
+GLUtils android.opengl.GLUtils 
+ShortBuffer java.nio.ShortBuffer 
+GLES20 android.opengl.GLES20 
+FloatBuffer java.nio.FloatBuffer 
+ByteOrder java.nio.ByteOrder 
+EGLConfig javax.microedition.khronos.egl.EGLConfig android.opengl.EGLConfig 
+GL10 javax.microedition.khronos.opengles.GL10 
+ActivityManager android.app.ActivityManager 
+ConfigurationInfo android.content.pm.ConfigurationInfo 
+Display android.view.Display com.googlecode.eyesfree.braille.display.Display org.lwjgl.opengl.Display org.lwjgl.util.Display 
+Base64 android.util.Base64 okio.Base64 org.apache.commons.codec.binary.Base64 org.apache.maven.artifact.ant.shaded.Base64 org.apache.xerces.impl.dv.util.Base64 org.bouncycastle.util.encoders.Base64 org.codehaus.plexus.util.Base64 org.parboiled.common.Base64 
+AtomicLong java.util.concurrent.atomic.AtomicLong 
+Parcel android.os.Parcel 
+Set java.util.Set 
+HashSet java.util.HashSet com.intellij.util.containers.HashSet 
+Html android.text.Html 
+StringBuffer java.lang.StringBuffer 
+Exception java.lang.Exception 
+Scroller android.widget.Scroller 
+SoundPool android.media.SoundPool 
+Window android.view.Window 
+Collection java.util.Collection 
+ValueAnimator android.animation.ValueAnimator 
+Path android.graphics.Path 
+PropertyValuesHolder android.animation.PropertyValuesHolder 
+AnimatorListenerAdapter android.animation.AnimatorListenerAdapter 
+CountDownLatch java.util.concurrent.CountDownLatch edu.emory.mathcs.backport.
+Writer java.io.Writer 
+ServerSocket java.net.ServerSocket 
+LocalSocket android.net.LocalSocket 
+LocalServerSocket android.net.LocalServerSocket 
+GridLayout android.widget.GridLayout 
+OvalShape android.graphics.drawable.shapes.OvalShape 
+ShapeDrawable android.graphics.drawable.ShapeDrawable 
+LinkedList java.util.LinkedList 
+MockContext android.test.mock.MockContext 
+SparseArray android.util.SparseArray com.android.sdklib.util.SparseArray com.android.utils.SparseArray 
+Notification android.app.Notification 
+NotificationManager android.app.NotificationManager 
+AlarmManager android.app.AlarmManager 
+ObjectOutputStream java.io.ObjectOutputStream 
+FileOutputStream java.io.FileOutputStream 
+ObjectInputStream java.io.ObjectInputStream 
+AnimationUtils android.view.animation.AnimationUtils 
+CountDownTimer android.os.CountDownTimer 
+Stack java.util.Stack com.badlogic.gdx.scenes.scene2d.ui.Stack com.intellij.util.containers.Stack groovyjarjarantlr.collections.Stack proguard.evaluation.Stack 
+Parcelable android.os.Parcelable 
+TransitionDrawable android.graphics.drawable.TransitionDrawable 
+AnimatorInflater android.animation.AnimatorInflater 
+AnimatorSet android.animation.AnimatorSet 
+Deque java.util.Deque com.ibm.icu.impl.Deque edu.emory.mathcs.backport.
+ArrayDeque java.util.ArrayDeque edu.emory.mathcs.backport.
+AbsListView android.widget.AbsListView 
+TableRow android.widget.TableRow 
+NoSuchElementException java.util.NoSuchElementException 
+TypeVariable java.lang.reflect.TypeVariable lombok.ast.TypeVariable 
+WildcardType java.lang.reflect.WildcardType 
+URLClassLoader java.net.URLClassLoader 
+JarEntry java.util.jar.JarEntry 
+JarFile java.util.jar.JarFile 
+PrintWriter java.io.PrintWriter 
+StringWriter java.io.StringWriter 
+NoSuchFieldException java.lang.NoSuchFieldException 
+StackTraceElement java.lang.StackTraceElement 
+RejectedExecutionException java.util.concurrent.RejectedExecutionException 
+Arrays java.util.Arrays org.fest.util.Arrays edu.emory.mathcs.backport.org.bouncycastle.util.Arrays 
+ReferenceQueue java.lang.ref.ReferenceQueue 
+URISyntaxException java.net.URISyntaxException 
+GestureDetector android.view.GestureDetector 
+FutureTask java.util.concurrent.FutureTask 
+SynchronousQueue java.util.concurrent.SynchronousQueue 
+ScheduledExecutorService java.util.concurrent.ScheduledExecutorService 
+SocketChannel java.nio.channels.SocketChannel 
+SelectableChannel java.nio.channels.SelectableChannel 
+InetAddress java.net.InetAddress 
+ObjectAnimator android.animation.ObjectAnimator 
+AlphaAnimation android.view.animation.AlphaAnimation 
+AudioRecord android.media.AudioRecord 
+MediaRecorder android.media.MediaRecorder 
+SSLSession javax.net.ssl.SSLSession 
+HostnameVerifier javax.net.ssl.HostnameVerifier 
+CertificateException java.security.cert.CertificateException javax.security.cert.CertificateException 
+X509Certificate java.security.cert.X509Certificate javax.security.cert.X509Certificate 
+X509TrustManager javax.net.ssl.X509TrustManager 
+KeyManagerFactory javax.net.ssl.KeyManagerFactory 
+TrustManagerFactory javax.net.ssl.TrustManagerFactory 
+SSLContext javax.net.ssl.SSLContext 
+KeyStore java.security.KeyStore 
+AllowAllHostnameVerifier org.apache.http.conn.ssl.AllowAllHostnameVerifier 
+IntentService android.app.IntentService 
+MalformedURLException java.net.MalformedURLException 
+WeakHashMap java.util.WeakHashMap com.intellij.util.containers.WeakHashMap 
+ActivityUnitTestCase android.test.ActivityUnitTestCase 
+ActivityInstrumentationTestCase2 android.test.ActivityInstrumentationTestCase2 
+SystemClock android.os.SystemClock 
+InstrumentationTestCase android.test.InstrumentationTestCase 
+TouchUtils android.test.TouchUtils 
+Point android.graphics.Point 
+ClassLoader java.lang.ClassLoader 
+IllegalArgumentException java.lang.IllegalArgumentException 
+AtomicInteger java.util.concurrent.atomic.AtomicInteger 
+Annotation java.lang.annotation.Annotation android.text.Annotation java.text.Annotation 
+TargetApi android.annotation.TargetApi 
+WifiManager android.net.wifi.WifiManager 
+WifiConfiguration android.net.wifi.WifiConfiguration 
+ActivityNotFoundException android.content.ActivityNotFoundException 
+ContactsContract android.provider.ContactsContract 
+AndroidTestCase android.test.AndroidTestCase 
+Animator android.animation.Animator 
+Comparator java.util.Comparator 
+NumberFormatException java.lang.NumberFormatException 
+AbsSpinner android.widget.AbsSpinner 
+AlertDialog android.app.AlertDialog 
+StreamTokenizer java.io.StreamTokenizer 
+AtomicBoolean java.util.concurrent.atomic.AtomicBoolean 
+WebChromeClient android.webkit.WebChromeClient 
+CancellationException java.util.concurrent.CancellationException 
+ParameterizedType java.lang.reflect.ParameterizedType 
+RelativeLayout android.widget.RelativeLayout 
+Observable java.util.Observable android.database.Observable 
+ExpandableListView android.widget.ExpandableListView 
+BaseExpandableListAdapter android.widget.BaseExpandableListAdapter 
+ColorDrawable android.graphics.drawable.ColorDrawable 
+ClassNotFoundException java.lang.ClassNotFoundException 
+ActionBarDrawerToggle android.support.v4.app.ActionBarDrawerToggle 
+DrawerLayout android.support.v4.widget.DrawerLayout 
+CopyOnWriteArrayList java.util.concurrent.CopyOnWriteArrayList 
+AbsSeekBar android.widget.AbsSeekBar 
+Resources android.content.res.Resources com.google.common.io.Resources net.orfjackal.retrolambda.google.common.io.Resources org.apache.tools.ant.types.resources.Resources 
+HashMap java.util.HashMap com.intellij.util.containers.HashMap 
+Class java.lang.Class 
+FileObserver android.os.FileObserver 
+FragmentActivity android.support.v4.app.FragmentActivity 
+JavascriptInterface org.xwalk.core.JavascriptInterface android.webkit.JavascriptInterface org.chromium.content.browser.JavascriptInterface 
+Toast android.widget.Toast 
+WebSettings android.webkit.WebSettings 
+WebView android.webkit.WebView 
+Assert org.junit.Assert junit.framework.Assert com.ibm.icu.impl.Assert lombok.ast.Assert 
+PreferenceManager android.preference.PreferenceManager 
+TypedValue android.util.TypedValue 
+PointF android.graphics.PointF 
+Environment android.os.Environment com.badlogic.gdx.graphics.g3d.Environment org.apache.tools.ant.types.Environment 
+RectF android.graphics.RectF 
+Build android.os.Build org.apache.maven.model.Build 
+ListActivity android.app.ListActivity 
+InputStreamReader java.io.InputStreamReader jline.internal.InputStreamReader 
+Date java.util.Date java.sql.Date 
+FileInputStream java.io.FileInputStream 
+AudioFormat android.media.AudioFormat 
+AudioTrack android.media.AudioTrack 
+TimePicker android.widget.TimePicker 
+DateFormat android.text.format.DateFormat java.text.DateFormat 
+Calendar java.util.Calendar 
+Dialog android.app.Dialog com.badlogic.gdx.scenes.scene2d.ui.Dialog 
+TimePickerDialog android.app.TimePickerDialog 
+DialogFragment android.app.DialogFragment 
+BackgroundColorSpan android.text.style.BackgroundColorSpan 
+ForegroundColorSpan android.text.style.ForegroundColorSpan 
+Spannable android.text.Spannable 
+LruCache android.util.LruCache 
+WindowManager android.view.WindowManager 
+BufferedReader java.io.BufferedReader 
+InputMethodManager android.view.inputmethod.InputMethodManager 
+EditorInfo android.view.inputmethod.EditorInfo 
+InputConnection android.view.inputmethod.InputConnection 
+BaseInputConnection android.view.inputmethod.BaseInputConnection 
+SpannableStringBuilder android.text.SpannableStringBuilder 
+ProcessBuilder java.lang.ProcessBuilder 
+LinkedHashMap java.util.LinkedHashMap com.intellij.util.containers.hash.LinkedHashMap com.intellij.util.containers.LinkedHashMap 
+Pair android.util.Pair com.intellij.openapi.util.Pair kotlin.Pair org.apache.commons.lang3.tuple.Pair org.robolectric.util.Pair com.com.android.utils.Pair 
+Scanner java.util.Scanner java_cup.runtime.Scanner org.apache.maven.artifact.ant.shaded.Scanner org.codehaus.plexus.util.Scanner org.eclipse.jdt.internal.compiler.parser.Scanner 
+ZipException java.util.zip.ZipException 
+Iterator java.util.Iterator 
+InterruptedException java.lang.InterruptedException 
+LinkedBlockingQueue java.util.concurrent.LinkedBlockingQueue 
+AbstractExecutorService java.util.concurrent.AbstractExecutorService 
+ThreadPoolExecutor java.util.concurrent.ThreadPoolExecutor 
+TimeoutException java.util.concurrent.TimeoutException 
+ExecutionException java.util.concurrent.ExecutionException edu.emory.mathcs.backport.
+Callable java.util.concurrent.Callable android.databinding.tool.reflection.Callable org.jetbrains.kotlin.codegen.Callable edu.emory.mathcs.backport.org.jetbrains.jet.codegen.Callable 
+Future java.util.concurrent.Future edu.emory.mathcs.backport.
+ExecutorService java.util.concurrent.ExecutorService edu.emory.mathcs.backport.
+Executors java.util.concurrent.Executors edu.emory.mathcs.backport.
+Executor java.util.concurrent.Executor 
+Uri android.net.Uri 
+ElementType java.lang.annotation.ElementType 
+RetentionPolicy java.lang.annotation.RetentionPolicy 
+Target java.lang.annotation.Target 
+Retention java.lang.annotation.Retention 
+AssetManager android.content.res.AssetManager 
+ZipEntry java.util.zip.ZipEntry 
+PackageInfo android.content.pm.PackageInfo 
+ZipFile java.util.zip.ZipFile 
+ApplicationInfo android.content.pm.ApplicationInfo com.intellij.openapi.application.ApplicationInfo 
+ToggleButton android.widget.ToggleButton 
+Enumeration java.util.Enumeration 
+Settings android.provider.Settings com.squareup.okhttp.internal.spdy.Settings org.apache.maven.settings.Settings 
+DHPublicKeySpec javax.crypto.spec.DHPublicKeySpec 
+KeyFactory java.security.KeyFactory 
+KeyAgreement javax.crypto.KeyAgreement 
+SecureRandom java.security.SecureRandom 
+DHParameterSpec javax.crypto.spec.DHParameterSpec 
+DHPublicKey javax.crypto.interfaces.DHPublicKey 
+DHPrivateKey javax.crypto.interfaces.DHPrivateKey 
+BigInteger java.math.BigInteger 
+PublicKey java.security.PublicKey 
+PrivateKey java.security.PrivateKey 
+KeyPair java.security.KeyPair 
+KeyPairGenerator java.security.KeyPairGenerator 
+SensorEventListener android.hardware.SensorEventListener 
+SensorEvent android.hardware.SensorEvent 
+Sensor android.hardware.Sensor 
+SensorManager android.hardware.SensorManager 
+File java.io.File 
+Runtime java.lang.Runtime 
+Process java.lang.Process android.os.Process 
+PixelFormat android.graphics.PixelFormat org.lwjgl.opengl.PixelFormat 
+PaintFlagsDrawFilter android.graphics.PaintFlagsDrawFilter 
+PaintDrawable android.graphics.drawable.PaintDrawable 
+PorterDuff android.graphics.PorterDuff 
+Shader android.graphics.Shader 
+Gallery android.widget.Gallery 
+GridView android.widget.GridView 
+PackageManager android.content.pm.PackageManager 
+ResolveInfo android.content.pm.ResolveInfo 
+Collections java.util.Collections edu.emory.mathcs.backport.org.fest.util.Collections 
+AccelerateInterpolator android.view.animation.AccelerateInterpolator 
+TranslateAnimation android.view.animation.TranslateAnimation 
+Animation android.view.animation.Animation 
+Drawable android.graphics.drawable.Drawable com.badlogic.gdx.scenes.scene2d.utils.Drawable org.lwjgl.opengl.Drawable 
+WallpaperManager android.app.WallpaperManager 
+BitmapDrawable android.graphics.drawable.BitmapDrawable 
+PorterDuffXfermode android.graphics.PorterDuffXfermode 
+LinearGradient android.graphics.LinearGradient 
+Paint android.graphics.Paint 
+Matrix android.opengl.Matrix android.graphics.Matrix 
+Modifier java.lang.reflect.Modifier 
+Field java.lang.reflect.Field com.badlogic.gdx.utils.reflect.Field groovy.transform.Field org.apache.xerces.impl.xs.identity.Field proguard.classfile.Field 
+EdgeEffect android.widget.EdgeEffect 
+Color android.graphics.Color com.badlogic.gdx.graphics.Color org.lwjgl.util.Color 
+DisplayMetrics android.util.DisplayMetrics 
+ScrollView android.widget.ScrollView 
+HorizontalScrollView android.widget.HorizontalScrollView 
+ViewConfiguration android.view.ViewConfiguration 
+LinearLayout android.widget.LinearLayout 
+ViewFlipper android.widget.ViewFlipper 
+KeyEvent android.view.KeyEvent 
+SpannableString android.text.SpannableString 
+TextUtils android.text.TextUtils 
+Spanned android.text.Spanned 
+InputFilter android.text.InputFilter 
+CharSequence java.lang.CharSequence 
+Editable android.text.Editable 
+TextWatcher android.text.TextWatcher 
+SharedPreferences android.content.SharedPreferences 
+BasicHttpRequest org.apache.http.message.BasicHttpRequest 
+HttpRequest org.apache.http.HttpRequest 
+TimeUnit java.util.concurrent.TimeUnit com.ibm.icu.impl.duration.TimeUnit com.ibm.icu.util.TimeUnit edu.emory.mathcs.backport.
+HideReturnsTransformationMethod android.text.method.HideReturnsTransformationMethod 
+PasswordTransformationMethod android.text.method.PasswordTransformationMethod 
+CompoundButton android.widget.CompoundButton 
+ReentrantLock java.util.concurrent.locks.ReentrantLock 
+Lock java.util.concurrent.locks.Lock 
+ArrayBlockingQueue java.util.concurrent.ArrayBlockingQueue edu.emory.mathcs.backport.
+BlockingQueue java.util.concurrent.BlockingQueue edu.emory.mathcs.backport.
+UUID java.util.UUID 
+AudioManager android.media.AudioManager 
+ActivityInfo android.content.pm.ActivityInfo 
+InputType android.text.InputType 
+AtomicReference java.util.concurrent.atomic.AtomicReference 
+HandlerThread android.os.HandlerThread 
+SimpleDateFormat java.text.SimpleDateFormat 
+RemoteException android.os.RemoteException 
+MediaPlayer android.media.MediaPlayer 
+Typeface android.graphics.Typeface 
+ImageButton android.widget.ImageButton 
+ProgressBar android.widget.ProgressBar 
+SeekBar android.widget.SeekBar 
+PowerManager android.os.PowerManager 
+ContentValues android.content.ContentValues 
+Cursor android.database.Cursor org.lwjgl.input.Cursor 
+SQLiteDatabase android.database.sqlite.SQLiteDatabase 
+SQLiteOpenHelper android.database.sqlite.SQLiteOpenHelper 
+Button android.widget.Button com.badlogic.gdx.scenes.scene2d.ui.Button 
+CheckBox android.widget.CheckBox com.badlogic.gdx.scenes.scene2d.ui.CheckBox 
+EditText android.widget.EditText 
+Spinner android.widget.Spinner 
+Serializable java.io.Serializable 
+StrictMode android.os.StrictMode 
+TypedArray android.content.res.TypedArray 
+ImageView android.widget.ImageView 
+DialogInterface android.content.DialogInterface 
+ProgressDialog android.app.ProgressDialog 
+SQLiteException android.database.sqlite.SQLiteException 
+NoSuchMethodException java.lang.NoSuchMethodException 
+IllegalAccessException java.lang.IllegalAccessException 
+InvocationTargetException java.lang.reflect.InvocationTargetException 
+WeakReference java.lang.ref.WeakReference 
+Method java.lang.reflect.Method com.badlogic.gdx.utils.reflect.Method groovyjarjarasm.asm.commons.Method groovyx.net.http.Method net.orfjackal.retrolambda.asm.commons.Method org.apache.xml.serialize.Method org.jetbrains.org.objectweb.asm.commons.Method org.objectweb.asm.commons.Method proguard.classfile.Method 
+InputStream java.io.InputStream 
+OutputStream java.io.OutputStream 
+InetSocketAddress java.net.InetSocketAddress 
+DataOutputStream java.io.DataOutputStream com.intellij.util.io.DataOutputStream 
+DataInputStream java.io.DataInputStream 
+Socket java.net.Socket 
+UnknownHostException java.net.UnknownHostException 
+Matcher org.hamcrest.Matcher java.util.regex.Matcher com.intellij.util.text.Matcher org.parboiled.matchers.Matcher 
+Pattern java.util.regex.Pattern 
+GeneralSecurityException java.security.GeneralSecurityException 
+Cipher javax.crypto.Cipher 
+SecretKeySpec javax.crypto.spec.SecretKeySpec 
+JSONException org.json.JSONException net.sf.json.JSONException 
+JSONArray org.json.JSONArray net.sf.json.JSONArray 
+JSONObject org.json.JSONObject net.sf.json.JSONObject 
+HttpGet org.apache.http.client.methods.HttpGet 
+HttpClient org.apache.http.client.HttpClient 
+StringBuilder java.lang.StringBuilder 
+ByteArrayInputStream java.io.ByteArrayInputStream 
+AbstractMap java.util.AbstractMap edu.emory.mathcs.backport.
+List java.util.List com.badlogic.gdx.scenes.scene2d.ui.List groovyjarjarantlr.collections.List 
+TreeMap java.util.TreeMap 
+Map java.util.Map com.badlogic.gdx.maps.Map 
+ByteBuffer java.nio.ByteBuffer groovyjarjarantlr.ByteBuffer 
+CheckedTextView android.widget.CheckedTextView 
+Type java.lang.reflect.Type android.renderscript.Type groovyjarjarasm.asm.Type groovy.json.internal.Type net.orfjackal.retrolambda.asm.Type org.apache.tools.ant.types.resources.comparators.Type org.apache.tools.ant.types.resources.selectors.Type org.fest.reflect.type.Type org.jetbrains.org.objectweb.asm.Type org.mockito.asm.Type org.objectweb.asm.Type 
+Element android.renderscript.Element android.sax.Element org.w3c.dom.Element 
+Allocation android.renderscript.Allocation 
+RenderScript android.renderscript.RenderScript 
+Random java.util.Random 
+Looper android.os.Looper 
+Canvas android.graphics.Canvas 
+Rect android.graphics.Rect 
+ImageFormat android.graphics.ImageFormat 
+BitmapFactory android.graphics.BitmapFactory 
+ByteArrayOutputStream java.io.ByteArrayOutputStream org.apache.commons.io.output.ByteArrayOutputStream 
+GLSurfaceView android.opengl.GLSurfaceView 
+YuvImage android.graphics.YuvImage 
+Camera android.hardware.Camera android.graphics.Camera com.android.sdklib.devices.Camera com.badlogic.gdx.graphics.Camera 
+SurfaceHolder android.view.SurfaceHolder 
+SurfaceView android.view.SurfaceView 
+AttributeSet android.util.AttributeSet 
+Bitmap android.graphics.Bitmap 
+FrameLayout android.widget.FrameLayout 
+MotionEvent android.view.MotionEvent 
+ArrayList java.util.ArrayList 
+MenuInflater android.view.MenuInflater 
+ActionBar android.app.ActionBar 
+SpinnerAdapter android.widget.SpinnerAdapter 
+ListFragment android.app.ListFragment 
+Handler android.os.Handler java.util.logging.Handler groovyjarjarasm.asm.Handler net.orfjackal.retrolambda.asm.Handler org.codehaus.classworlds.uberjar.protocol.jar.Handler org.jetbrains.org.objectweb.asm.Handler org.mockito.asm.Handler org.objectweb.asm.Handler 
+JsonToken android.util.JsonToken 
+MenuItem android.view.MenuItem 
+Menu android.view.Menu 
+URLEncoder java.net.URLEncoder 
+URL java.net.URL 
+HttpURLConnection java.net.HttpURLConnection 
+AsyncTask android.os.AsyncTask com.badlogic.gdx.utils.async.AsyncTask 
+JsonReader android.util.JsonReader 
+FragmentManager android.app.FragmentManager 
+FragmentTransaction android.app.FragmentTransaction android.support.v4.app.FragmentTransaction 
+AdapterView android.widget.AdapterView 
+ArrayAdapter android.widget.ArrayAdapter 
+Bundle android.os.Bundle 
+View android.view.View org.parceler.transfuse.annotations.View 
+ListAdapter android.widget.ListAdapter 
+Log android.util.Log org.apache.commons.logging.Log android.databinding.tool.util.Log com.android.ddmlib.Log groovy.util.logging.Log jline.internal.Log trikita.log.Log 
+Fragment android.app.Fragment 
+BroadcastReceiver android.content.BroadcastReceiver 
+IntentFilter android.content.IntentFilter 
+ComponentName android.content.ComponentName 
+ServiceConnection android.content.ServiceConnection 
+Intent android.content.Intent 
+IBinder android.os.IBinder 
+Binder android.os.Binder 
+Service android.app.Service 
+Application android.app.Application com.badlogic.gdx.Application com.intellij.openapi.application.Application 
+TextView android.widget.TextView 
+LayoutInflater android.view.LayoutInflater 
+Context android.content.Context com.android.tools.lint.detector.api.Context com.google.gwt.dev.js.rhino.Context groovyjarjarasm.asm.Context net.orfjackal.retrolambda.asm.Context org.codehaus.plexus.context.Context org.jetbrains.org.objectweb.asm.Context org.lwjgl.opengl.Context org.objectweb.asm.Context org.parboiled.Context 
+BaseAdapter android.widget.BaseAdapter 
+ViewGroup android.view.ViewGroup 
+ListView android.widget.ListView 
+Gravity android.view.Gravity 
+Configuration android.content.res.Configuration com.android.tools.lint.client.api.Configuration jline.internal.Configuration org.abego.treelayout.Configuration proguard.Configuration 
+IOException java.io.IOException 
+Activity android.app.Activity 
+
